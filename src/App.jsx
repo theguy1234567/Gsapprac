@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import Cocktails from "./components/Cocktails";
 import About from "./components/About";
 import Art from "./components/Art";
+import Menue from "./components/Menue";
 gsap.registerPlugin(ScrollTrigger);
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <Cocktails />
       <About />
       <Art />
+      <Menue />
+      <div className="h-screen">helo</div>
     </main>
   );
 }
